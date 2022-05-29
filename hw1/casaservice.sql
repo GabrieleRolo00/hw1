@@ -43,13 +43,12 @@ CREATE TABLE `case` (
 -- Dump dei dati per la tabella `case`
 --
 
-INSERT INTO `case` (`id_casa`, `nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES
-(24, 'Casa n1', 53000, 'In pieno centro cittÃ , in un elegante condominio con servizio di portineria e ascensori, UniCredit Subito Casa propone in vendita un appartamento di 195 mq. con affaccio sugli alberi della piazza.', 'img/p1.jpg', 'new', 'Catania', 'via aci '),
-(25, 'Casa n2', 21000, 'Lâ€™appartamento si compone di un ingresso, tre ampie stanze su un balcone terrazzato, un corridoio che disimpegna altre due camere, una cucina abitabile, un ampio bagno con vasca, un secondo bagno con lavanderia ed un ripostiglio.', 'img/p2.jpg', 'new', 'Catania', 'Via etnea'),
-(26, 'Casa n3', 76000, 'L\'abitazione si compone di un ingresso su un grande soggiorno doppio, un disimpegno, una cucina abitabile, tre camere da letto, un bagno con vasca, una lavanderia con servizi, doccia idromassaggio e con vano ripostiglio.\r\nCompletano la proprietÃ  due balconi.', 'img/p3.jpg', 'new', 'Genova', 'via genova'),
-(27, 'Casa p1', 58000, 'La nostra agenzia propone in vendita Appartamento panoramico di 4 vani e mezzo circa 120 mq, sito a Catania in zona Canalicchio, nei pressi della Piazza VicerÃ© e precisamente in via Leucatia, posto al secondo piano senza ascensore all\'interno di un piccolo condominio in buono stato', 'img/p4.jpg', 'popular', 'Genova', 'Via genova'),
-(28, 'Casa p2', 73000, ' L\'immobile al suo interno Ã¨ composto da: ingresso su saletta, disimpegno, a seguire salone doppio con esposizione su balcone terrazzato, due camere da letto, cucina, servizio con box doccia, ripostiglio e lavanderia interna (con possibilitÃ  di creare il doppio servizio).', 'img/p5.jpg', 'popular', 'Firenze', 'Via firenze'),
-(29, 'Casa p3', 82000, 'Lâ€™immobile, attualmente adibito ad ufficio, si distribuisce su due livelli con doppia esposizione, Ã¨ composto da un ingresso con reception, tre ampie sale con soffitti affrescati, una cucina, un bagno ed un secondo ingresso dal cortile condominiale; al piano soppalcato due sale ed un bagno.', 'img/p6.jpg', 'popular', 'Firenze', 'Via firenze');
+INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('Casa p1', '32000', 'descrizione', 'img/p1.jpg','popular', 'catania', 'via aci');
+INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('Casa p2', '52000', 'descrizione', 'img/p2.jpg','popular', 'catania', 'via messina');
+INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('Casa p3', '62000', 'descrizione', 'img/p3.jpg','popular', 'genova', 'via verdi');
+INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('Casa n1', '75000', 'descrizione', 'img/p4.jpg','new', 'genova', 'via roma');
+INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('Casa n2', '21000', 'descrizione', 'img/p5.jpg','new', 'firenze', 'via nuova');
+INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('Casa n3', '83000', 'descrizione', 'img/p6.jpg','new', 'firenze', 'via principale');
 
 -- --------------------------------------------------------
 
