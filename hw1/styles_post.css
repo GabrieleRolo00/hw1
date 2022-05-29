@@ -1,0 +1,166 @@
+header{
+    height: 60px;
+}
+
+nav{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+.main{
+    align-items: flex-start;
+    margin: 20px 20px;
+}
+
+.indietro{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 10px 0 20px 0;
+}
+
+.indietro h2{
+    color: var(--first-color);
+    font-size: var(--h2-font-size);
+}
+
+.indietro h2:hover{
+    text-decoration: underline;
+}
+
+.indietro h2:hover, i:hover{
+    cursor: pointer;
+}
+
+.main i{
+    font-size: 2.2rem;
+    color: var(--first-color);
+}
+
+
+.container_post .img{
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+
+.container_post{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    transition: .3s;
+}
+
+.data .title{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: .75rem;
+    
+    padding-top: 10px;
+    transition: .3s;
+}
+
+.data span{
+    font-size: var(--h1-font-size);
+    padding-right: 5px;
+}
+
+.data .prezzo{
+    display: flex;
+    margin-bottom: .75rem;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.data .prezzo h2{
+    font-size: var(--h1-font-size);
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.contact{
+    display: none;
+}
+
+.data span{
+    color: var(--text-color);
+}
+.data .descrizione{
+    border-top: 2px solid var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: var(--h2-font-size);
+    color: var(--text-color);
+    word-wrap: break-word;
+    transition: .3s;
+}
+
+.data .indirizzo{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: var(--h2-font-size);
+    color: var(--text-color);
+    transition: .3s;
+
+}
+
+.title_like{
+    width: 100%;
+    display: flex;
+    border-top: 2px solid var(--text-color);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_like i{
+    transition: .3s;
+    cursor: pointer;
+}
+
+.title_like i:hover{
+    color: var(--second-color);
+}
+
+.mappa{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 800px)
+{
+
+     .container_post{
+         width: auto;
+     }
+
+     .data .title{
+        font-size: var(--h1-font-size);
+        transition: .3s;
+     }
+
+     .data .prezzo, .data .prezzo h2{
+
+        font-size: var(--h2-font-size);
+
+        transition: .3s;
+    }
+    
+    .data .descrizione, .data .indirizzo{
+        font-size: var(--h3-font-size);
+        transition: .3s;
+    }
+    
+}

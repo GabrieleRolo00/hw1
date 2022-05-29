@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+}
+
+.forms{
+    width: 100%;
+    height: 600px;
+}
+
+.container .form{
+    width: 100%;
+}
+
+.form .title::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 60px;
+    background: hsl(120,60%,40%);
+    border-radius: 25px;
+}
+
+
+#img{
+    border: none;
+    margin-top: 10px;
+}
