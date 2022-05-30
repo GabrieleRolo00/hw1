@@ -23,7 +23,7 @@ session_start();
 
     if(isset($nome) && isset($prezzo) && isset($descrizione) && isset($img) && isset($citta) && isset($indirizzo))
     {
-        $strqry = "INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('$nome', '$prezzo', '$descrizione', '$img2','popular', '$citta', '$indirizzo')";
+        $strqry = "INSERT INTO `case` (`nome`, `prezzo`, `descrizione`, `img`, `tipo`, `citta`, `indirizzo`) VALUES ('$nome', '$prezzo', '$descrizione', '$img2','new', '$citta', '$indirizzo')";
         $dati = mysqli_query($conn,$strqry);
 
         if($dati){
